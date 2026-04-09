@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Mystery Places Hidden Objects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #07060c;
+            background-image:
+                radial-gradient(ellipse 100% 60% at 0% 0%, rgba(88, 48, 120, 0.35), transparent 55%),
+                linear-gradient(180deg, #0a0812 0%, #0c0a10 100%);
+            color: #b8b0c4;
+            line-height: 1.75;
+            min-height: 100vh;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 28px 80px;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0;
+        }
+
+        @media (min-width: 700px) {
+            .page {
+                grid-template-columns: 200px 1fr;
+                gap: 48px;
+                align-items: start;
+                padding-top: 56px;
+            }
+        }
+
+        aside {
+            position: relative;
+        }
+
+        @media (min-width: 700px) {
+            aside {
+                position: sticky;
+                top: 48px;
+            }
+        }
+
+        .aside-inner {
+            border: 1px solid rgba(201, 162, 39, 0.25);
+            border-radius: 16px;
+            padding: 28px 22px;
+            background: linear-gradient(180deg, rgba(28, 22, 38, 0.85) 0%, rgba(14, 11, 22, 0.9) 100%);
+            box-shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        .aside-inner h1 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #f5f2ea;
+            letter-spacing: 0.04em;
+            line-height: 1.3;
+            margin-bottom: 16px;
+        }
+
+        .aside-inner .meta {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #9a8fb0;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            padding-top: 16px;
+            border-top: 1px solid rgba(201, 162, 39, 0.2);
+        }
+
+        .aside-inner .meta span {
+            display: block;
+            margin-top: 8px;
+            color: #c9a227;
+        }
+
+        .back {
+            display: inline-block;
+            margin-top: 24px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #a898c8;
+            text-decoration: none;
+            letter-spacing: 0.04em;
+        }
+
+        .back:hover {
+            color: #c9a227;
+        }
+
+        main {
+            padding-top: 8px;
+        }
+
+        @media (min-width: 700px) {
+            main {
+                padding-top: 0;
+                border-left: 1px solid rgba(201, 162, 39, 0.12);
+                padding-left: 48px;
+                margin-left: -24px;
+            }
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .num {
+            font-family: 'Cinzel', serif;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #c9a227;
+            letter-spacing: 0.25em;
+            margin-bottom: 8px;
+        }
+
+        section h2 {
+            font-family: 'Cinzel', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #ebe6dc;
+            margin-bottom: 14px;
+            letter-spacing: 0.03em;
+        }
+
+        section p {
+            font-size: 0.96rem;
+            margin-bottom: 12px;
+        }
+
+        section p:last-child {
+            margin-bottom: 0;
+        }
+
+        section strong {
+            color: #ebe6dc;
+            font-weight: 600;
+        }
+
+        .highlight-box {
+            margin-top: 18px;
+            padding: 20px 22px;
+            border-radius: 12px;
+            background: rgba(201, 162, 39, 0.08);
+            border: 1px solid rgba(201, 162, 39, 0.22);
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.94rem;
+            color: #d4cfc8;
+        }
+
+        .list-block {
+            margin-top: 14px;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .list-block li {
+            position: relative;
+            padding-left: 18px;
+            margin-bottom: 10px;
+            font-size: 0.94rem;
+        }
+
+        .list-block li:last-child {
+            margin-bottom: 0;
+        }
+
+        .list-block li::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0.55em;
+            width: 6px;
+            height: 6px;
+            background: #5c8a8a;
+            border-radius: 1px;
+            transform: rotate(45deg);
+        }
+
+        .mobile-back {
+            margin-bottom: 32px;
+        }
+
+        @media (min-width: 700px) {
+            .mobile-back {
+                display: none;
+            }
+        }
+
+        @media (max-width: 699px) {
+            aside .back {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="page">
+        <aside>
+            <div class="aside-inner">
+                <h1>Privacy Policy</h1>
+                <p class="meta">Mystery Places Hidden Objects<span>Effective April 2026</span></p>
+                <a class="back" href="index.html">← Overview</a>
+            </div>
+        </aside>
+
+        <main>
+            <a class="back mobile-back" href="index.html">← Back to overview</a>
+
+            <section>
+                <p class="num">I</p>
+                <h2>Scope</h2>
+                <p>This policy describes privacy practices for <strong>Mystery Places Hidden Objects</strong>, the mobile game distributed on Apple’s App Store. It is for general information only and should be read alongside Apple’s own privacy disclosures for the App Store, iCloud, and your device.</p>
+            </section>
+
+            <section>
+                <p class="num">II</p>
+                <h2>Data collection (App Store disclosure)</h2>
+                <p>On the App Store product page, the developer has indicated that <strong>this app does not collect data</strong> in the categories covered by Apple’s App Privacy labels. Specific practices can still depend on app version, features, and how the operating system handles diagnostics or crash reporting.</p>
+                <div class="highlight-box">
+                    <p>No names, email addresses, or similar identifiers appear on this promotional site. This page does not use analytics or advertising trackers.</p>
+                </div>
+            </section>
+
+            <section>
+                <p class="num">III</p>
+                <h2>Advertising &amp; online play</h2>
+                <p>The store listing notes that the app <strong>contains advertising</strong> and that an <strong>internet connection is required</strong> for gameplay. Ad networks and related services may process data under their own policies and subject to Apple’s App Tracking Transparency and platform rules. We do not control those third parties.</p>
+            </section>
+
+            <section>
+                <p class="num">IV</p>
+                <h2>Apple &amp; platform processing</h2>
+                <p>Installing, updating, or using apps through the App Store involves processing by <strong>Apple</strong> (accounts, billing, device identifiers, and system services as described in Apple’s privacy policy). That processing is separate from this static page.</p>
+            </section>
+
+            <section>
+                <p class="num">V</p>
+                <h2>Local storage on your device</h2>
+                <p>Like many games, the app may keep <strong>local data</strong> on your iPhone or iPad—for example progress, settings, or cached content—so it can run smoothly. Such data normally remains on the device unless a future update introduces cloud sync or similar features described on the store listing.</p>
+            </section>
+
+            <section>
+                <p class="num">VI</p>
+                <h2>Age rating &amp; families</h2>
+                <p>The app is rated <strong>4+</strong>. Parents and guardians can use Apple’s Screen Time, Family Sharing, and purchase controls to manage downloads and in-app behavior.</p>
+            </section>
+
+            <section>
+                <p class="num">VII</p>
+                <h2>Changes</h2>
+                <p>This text may be updated to stay accurate with the App Store listing or game updates. The <strong>effective date</strong> in the sidebar will change when a new version is published here.</p>
+                <ul class="list-block">
+                    <li>Refer to the live App Store page for the latest feature list and privacy nutrition label.</li>
+                    <li>For account or purchase issues, use Apple’s standard App Store support channels.</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
